@@ -3,30 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Responsive Landing Page</title>
+  <title>MediKart - Your Health Companion</title>
   <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
   <header id="navbar">
     <div class="logo">MediKart</div>
     <nav>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <h1>Welcome to MediKart!!!</h1>
-      <p>Scroll down to see the effect</p>
+    <section id="home" class="hero">
+      <h1>Welcome to MediKart!</h1>
+      <p>Your trusted online healthcare partner.</p>
     </section>
-    <section class="content">
-      <h2>About</h2>
-      <p>MediKart is a website where you can get to know about the usage of the medicines and order it online....</p>
+
+    <section id="features" class="content">
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Buy Medicines Online</strong> – Order medicines from home easily.</li>
+        <li><strong>Talk to Doctors</strong> – Ask health questions and get answers online.</li>
+        <li><strong>Health Products</strong> – Buy health and personal care items.</li>
+        <li><strong>Know Your Medicines</strong> – Learn how medicines work and when to use them.</li>
+      </ul>
+    </section>
+
+    <section id="about" class="content">
+      <h2>About MediKart</h2>
+      <p>
+        MediKart is a website where you can buy medicines,and get health advice — all from your phone or computer.
+      </p>
+      <p>
+        Our goal is to make healthcare easy for everyone. You don’t need to visit a shop or hospital for simple things.
+      </p>
+      <p>
+        We help people:
+      </p>
+      <ul>
+        <li>Get safe and genuine medicines</li>
+        <li>Talk to doctors anytime</li>
+        <li>Learn more about their health</li>
+      </ul>
+      <p>
+        MediKart is simple, helpful, and built for you.
+      </p>
+    </section>
+
+    <section id="contact" class="content">
+      <h2>Contact Us</h2>
+      <p>Email: support@medikart.com</p>
+      <p>Phone: +91-9876543210</p>
+      <p>Address: 123 Health Street, Hyderabad, India</p>
     </section>
   </main>
 
